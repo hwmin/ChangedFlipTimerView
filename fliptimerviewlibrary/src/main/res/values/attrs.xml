@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AlignedTextView">
+        <attr name="alignment" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CountDownClock">
+        <!--   倒计时完成后显示的字符   -->
+        <attr name="resetSymbol" format="string"/>
+        <!--   单个数字中间的的分割线   -->
+        <attr name="digitDividerColor" format="color"/>
+        <!--   数字控件上半部份背景   -->
+        <attr name="digitTopDrawable" format="integer"/>
+        <!--   数字控件下半部分背景   -->
+        <attr name="digitBottomDrawable" format="integer"/>
+        <!--   水平方向数字翻转控件之间的分割图像     -->
+        <attr name="digitHorizontalDividerDrawable" format="integer"/>
+        <!--   没用    -->
+        <attr name="digitSplitterColor" format="color"/>
+        <!--   数字颜色    -->
+        <attr name="digitTextColor" format="color"/>
+        <!--   数字控件高度的一半    -->
+        <attr name="halfDigitHeight" format="dimension"/>
+        <!--   数字控件宽度    -->
+        <attr name="digitWidth" format="dimension"/>
+        <!--   数字大小     -->
+        <attr name="digitTextSize" format="dimension"/>
+        <!--   数字子控件的内边距    -->
+        <attr name="digitPadding" format="dimension"/>
+        <!--   没用    -->
+        <attr name="splitterPadding" format="dimension"/>
+        <!--   动画时长    -->
+        <attr name="animationDuration" format="integer"/>
+        <!--   倒计时监听触发间隔    -->
+        <attr name="countdownTickInterval" format="integer"/>
+    </declare-styleable>
+
+</resources>
